@@ -1,0 +1,3 @@
+[submodule "Deep-adversarial-decomposition"]
+	path = Deep-adversarial-decomposition
+	url = https://github.com/jiupinjia/Deep-adversarial-decomposition
