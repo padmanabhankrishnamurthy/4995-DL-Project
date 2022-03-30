@@ -1,6 +1,10 @@
 [submodule "Deep-adversarial-decomposition"]
 	path = Deep-adversarial-decomposition
 	url = https://github.com/jiupinjia/Deep-adversarial-decomposition
+	
 [submodule "Restormer"]
 	path = Restormer
 	url = https://github.com/swz30/Restormer
+[submodule "VRGNet"]
+	path = VRGNet
+	url = https://github.com/hongwang01/VRGNet
