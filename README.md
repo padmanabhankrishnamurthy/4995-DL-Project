@@ -8,10 +8,13 @@ Padmanabhan Krishnamurthy (pk2705)
 ### Submodule for Rain-Removal-Specific Data Augmentation
 [VRGNet](https://github.com/hongwang01/VRGNet/tree/834c2c64be363797fe3741f4f8e8d17657f9b614)
 
-### Data
+### Data Augmentation Notebooks
 * [Data_Augmentation_Restormer.ipynb](Data_Augmentation_Restormer.ipynb)
 * [Data_Augmentation_Restormer_Crop_Rain_Streak.ipynb](Data_Augmentation_Restormer_Crop_Rain_Streak.ipynb)
 * [Data_Augmentation_Restormer_ISR.ipynb](Data_Augmentation_Restormer_ISR.ipynb)
+
+### Evaluation Dataset - Rain100H
+https://drive.google.com/drive/folders/10Ih6xa2wOWJIn4rJI6_LhQ57-cUToM8s?usp=sharing
 
 ### Models
 https://drive.google.com/drive/folders/1ajTTQ6uQwl_rcnim7hANO49yO-ERFx7l?usp=sharing
