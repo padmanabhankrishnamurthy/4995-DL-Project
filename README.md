@@ -1,18 +1,28 @@
 # 4995-DL-Project
+Nathaniel Thomas Jenkins (ntj2109)
+
+Nikhil Nanda (nn2522)
+
+Padmanabhan Krishnamurthy (pk2705)
 
 ## Submodule for Rain-Removal-Specific Data Augmentation
 [VRGNet](https://github.com/hongwang01/VRGNet/tree/834c2c64be363797fe3741f4f8e8d17657f9b614)
 
-## Submodule for DAD model
-[Deep-adversarial-decomposition](https://github.com/jiupinjia/Deep-adversarial-decomposition/tree/c983bc6d01a95b7454598e1939a22b3cc4128d69)
-
-## Submodule for Restormer model
-[Restormer](https://github.com/swz30/Restormer/tree/b19fa6e7104cb946ac8c5d6368117962ed0e751b)
-
-## Ours
-
 ### Data
-* [Restormer_data.ipynb](data/Restormer_data.ipynb) - Data loaders for the training set and the RAIN 100H test set
+* [Data_Augmentation_Restormer.ipynb](Data_Augmentation_Restormer.ipynb)
+* [Data_Augmentation_Restormer_Crop_Rain_Streak.ipynb](Data_Augmentation_Restormer_Crop_Rain_Streak.ipynb)
+* [Data_Augmentation_Restormer_ISR.ipynb](Data_Augmentation_Restormer_ISR.ipynb)
 
-### Baseline
-* [baseline_restormer.ipynb](baseline/baseline_restormer.ipynb) - Baseline PSNR Restormer pretrained deraining model on the RAIN 100H test set
+### Models
+https://drive.google.com/drive/folders/1ajTTQ6uQwl_rcnim7hANO49yO-ERFx7l?usp=sharing
+
+### Instructions
+Clone this repository and download the desired model configuration's weights from the above link
+
+`cd DAD`
+
+`python eval_derain.py --dataset rain100h --ckptdir <folder name of downloaded checkpoint> --net_G unet_512 --in_size 512 --save_output`
+
+For example, to run evaluation using configuration 1.(b)'s weights (with rain streak maps supplied during training), run
+
+`python eval_derain.py --dataset rain100h --ckptdir 1_b/rainstreak --net_G unet_512 --in_size 512 --save_output`
