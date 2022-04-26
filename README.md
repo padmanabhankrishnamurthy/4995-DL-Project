@@ -5,7 +5,7 @@ Nikhil Nanda (nn2522)
 
 Padmanabhan Krishnamurthy (pk2705)
 
-## Submodule for Rain-Removal-Specific Data Augmentation
+### Submodule for Rain-Removal-Specific Data Augmentation
 [VRGNet](https://github.com/hongwang01/VRGNet/tree/834c2c64be363797fe3741f4f8e8d17657f9b614)
 
 ### Data
